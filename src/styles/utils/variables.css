@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #F04037;
+  --color-dark: #19191B;
+  --color-light: #FFFFFF;
+  --color-gray: #BABABA;
+
+  --input-radius: 6px;
+  --button-radius: 6px;
+  --full-radius: 50%;
+  
+  --title-mobile: 32px;
+  --title-tablet: 48px;
+  --title-desktop: 54px;
+
+  --description-mobile: 12px;
+  --description-tablet: 14px;
+  --description-desktop: 16px;
+
+  --margin-mobile: 54px;
+  --margin-tablet: 96px;
+  --margin-desktop: 120px;
+
+  --margin-section-mobile: 32px;
+  --margin-section-tablet: 54px;
+  --margin-section-desktop: 72px;
+}
