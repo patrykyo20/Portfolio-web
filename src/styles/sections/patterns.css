@@ -1,0 +1,43 @@
+.patterns {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.patterns__item {
+  position: fixed;
+  background: linear-gradient(
+    to left,
+    var(--color-light) 0%,
+    var(--color-primary) 100%
+  );
+  opacity: 0.2;
+  filter: blur(200px);
+  border-radius: 300px;
+  z-index: -10;
+}
+
+.patterns__item:nth-child(1) {
+  right: -100px;
+  top: 100px;
+  transform: rotate(-135deg);
+  width: 880px;
+  height: 1600px;
+}
+
+.patterns__item:nth-child(2) {
+  left: -100px;
+  top: -2rem;
+  transform: rotate(-315deg);
+  width: 880px;
+  height: 400px;
+}
+
+.patterns__item:nth-child(3) {
+  left: 50%;
+  top: -2rem;
+  transform: rotate(-45deg);
+  width: 556px;
+  height: 3200px;
+}
+
+
