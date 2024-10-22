@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Górskie Tarasy",
+    "description": "This is a representative website for a cabin rental business in the mountains. It features an automated booking form that is linked directly to the business’s email inbox for quick and efficient reservation handling. The project is still evolving, with plans to implement a booking calendar and payment system in the near future. Technologies used include Next.js, TypeScript, Email.js, Sass, and Figma. The automated features streamline the reservation process, and the future enhancements will further improve the booking experience for users.",
+    "technologies": ["Next.js", "Email.js", "React.js", "TypeScript", "SASS", "Content Management Systems (CMS)", "Figma (Software)"],
+    "demo": "link",
+    "github": "github",
+    "image": "./src/assets/images/gorskietarasy.png"
+  },
+  {
+    "title": "Show your project",
+    "description": "This is a platform designed for users to share their creative projects, such as web applications and graphic designs, with the community. It allows users to create profiles, post projects, and engage with others through likes, views, and comments. The platform supports full CRUD operations, offering complete control over posts. Key features include responsive design, secure user authentication via Clerk, and powerful filtering and pagination for easy project browsing. Built with Next.js, TypeScript, TailwindCSS, Node.js, and PostgreSQL, the platform fosters creativity and interaction among its users.",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Redux Toolkit", "Clerk", "Node.js", "Express.js", "Sequalize", "PostgreSQL", "Cloudinary"],
+    "demo": "link",
+    "github": "github",
+    "image": "./src/assets/images/showyourproject.png"
+  },
+  {
+    "title": "Górskie Tarasy",
+    "description": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality",
+    "technologies": ["Next.js", "Tailwind CSS", "TypeScript", "Prisma", "PostgreSQL", "AWS"],
+    "demo": "link",
+    "github": "github",
+    "image": "./src/assets/images/sosalsa.png"
+  }
+]
