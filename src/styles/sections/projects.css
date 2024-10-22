@@ -1,0 +1,263 @@
+.projects {
+  position: relative;
+  max-width: 696px;
+  margin: 0 auto;
+}
+
+.projects__slider {
+  min-height: 40vh;
+  display: inline-flex;
+  transition: transform 0.3s ease-out;
+  gap: 400px;
+}
+
+.projects__slide {
+  display: block;
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 368px;
+}
+
+.projects__container {
+  margin-top: 32px;
+}
+
+.projects__subcontainer {
+  margin-top: 16px;
+}
+
+.projects__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.projects__technologies--item {
+  padding: 8px 12px;
+  background-color: var(--color-light);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: var(--badge-radius);
+}
+
+.projects__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.projects__links--github {
+  padding: 5px;
+}
+
+.projects__image {
+  width: 100%;
+  height: auto;
+  margin: 50px auto 0;
+}
+
+.projects__signals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 12px;
+}
+
+.projects__signals--item {
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-light);
+  border-radius: 50%;
+}
+
+.projects__signals--button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signals__item--active {
+  background-color: var(--color-primary);
+}
+
+.projects__ornament--half-circle,
+.projects__ornament--empty-triangle,
+.projects__ornament--empty-circle {
+  position: absolute;
+  z-index: -1;
+}
+
+.projects__ornament--half-circle {
+  transform: rotate(225deg);
+  top: 5rem;
+  right: -1rem;
+  width: 60px;
+  height: 30px;
+}
+
+.projects__ornament--empty-triangle {
+  right: 0;
+  top: 15rem;
+  width: 75px;
+  height: 55px;
+}
+
+.projects__ornament--empty-circle {
+  right: 6rem;
+  bottom: 18rem;
+  width: 34px;
+  height: 34px;
+}
+
+@media (min-width: 768px) {
+  .projects__slide {
+    max-width: 710px;
+  }
+
+  .projects__image {
+    max-width: 488px;
+    float: right;
+  }
+
+  .projects__description {
+    max-width: 600px;
+  }
+
+  .projects__technologies,
+  .projects__links {
+    display: inline-flex;
+    max-width: 600px;
+  }
+
+  .projects__links {
+    margin-left: 4rem;
+  }
+
+  .projects__links--github {
+    padding: 8px;
+  }
+
+  .projects__ornament--half-circle {
+    transform: rotate(270deg);
+    width: 75px;
+    height: 75px;
+    right: 2rem;
+  }
+
+  .projects__ornament--empty-triangle {
+    left: 1.5rem;
+    top: 23rem;
+    width: 75px;
+    height: 75px;
+  }
+
+  .projects__ornament--empty-circle {
+    top: 32rem;
+    left: 5rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__slider::-webkit-scrollbar {
+    width: 100px;
+  }
+
+  .projects {
+    position: relative;
+  }
+
+  .projects__slider {
+    display: inline-flex;
+    transition: transform 0.3s ease-out;
+    gap: 400px;
+    padding-bottom: 20px;
+  }
+
+  .projects::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .projects__slide {
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    position: relative;
+    right: 0;
+    grid-template-rows: 0.5fr 1.5fr 0.2fr 0.4fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    min-width: 85vw;
+    min-height: 381px;
+    max-height: 600px;
+    margin-top: 80px;
+  }
+
+  .projects__image {
+    margin: 0;
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+    width: 100%;
+    height: 100%;
+    max-width: 660px;
+    right: 0;
+    border-radius: 30px 0  0 30px;
+  }
+
+  .projects__links {
+    margin-left: 0;
+  }
+
+  .projects__title {
+    grid-row: 1 / 2;
+  }
+
+  .projects__description {
+    grid-row: 2 / 3;
+  }
+
+  .projects__technologies {
+    grid-row: 3 / 4;
+  }
+
+  .projects__links {
+    grid-row: 4 / 5;
+  }
+
+  .projects__ornament--half-circle {
+    transform: rotate(270deg);
+    width: 75px;
+    height: 75px;
+    top: 20rem;
+    left: -5rem;
+  }
+
+  .projects__ornament--empty-triangle {
+    left: 30rem;
+    top: 5rem;
+    width: 75px;
+    height: 75px;
+  }
+
+  .projects__ornament--empty-circle {
+    top: 32rem;
+    left: 19rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.grabbing .slide img {
+  transform: scale(0.9);
+}
