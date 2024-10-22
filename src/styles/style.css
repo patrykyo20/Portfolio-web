@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+@import url("./utils/variables.css");
+@import url("./utils/reset.css");
+@import url("./blocks/typography.css");
+@import url("./blocks/button.css");
+@import url("./blocks/header.css");
+@import url("./blocks/hamburger.css");
+@import url("./blocks/menu.css");
+@import url("./sections/hero.css");
+@import url("./sections/projects.css");
+@import url("./sections/patterns.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.body {
+  background-color: var(--color-dark);
+  font-family: "Oxygen", sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 368px;
+  margin: 0 auto;
+}
+
+.ornament {
+  position: absolute;
+  z-index: -1;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  display: block;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 696px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1040px;
+  }
+}
