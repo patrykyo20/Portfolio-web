@@ -1,0 +1,39 @@
+.button {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 12px 26px;
+  border: 1px solid var(--color-light);
+  border-radius: var(--button-radius);
+  transition: 0.3s;
+}
+
+.button--primary {
+  border: none;
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  box-shadow: 1px 1px 4px var(--color-primary);
+}
+
+.button--link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 4px var(--color-light);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 13px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 15px 48px;
+  }
+}
