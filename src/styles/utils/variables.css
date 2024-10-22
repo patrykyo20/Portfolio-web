@@ -4,17 +4,22 @@
   --color-light: #FFFFFF;
   --color-gray: #BABABA;
 
-  --input-radius: 6px;
+  --badge-radius: 4px;
+  --input-radius: 5px;
   --button-radius: 6px;
   --full-radius: 50%;
   
-  --title-mobile: 32px;
+  --title-mobile: 40px;
   --title-tablet: 48px;
   --title-desktop: 54px;
 
-  --description-mobile: 12px;
-  --description-tablet: 14px;
-  --description-desktop: 16px;
+  --title-section-mobile: 32px;
+  --title-section-tablet: 40px;
+  --title-section-desktop: 48px;
+
+  --description-mobile: 10px;
+  --description-tablet: 12px;
+  --description-desktop: 14px;
 
   --margin-mobile: 54px;
   --margin-tablet: 96px;
