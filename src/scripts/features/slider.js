@@ -20,16 +20,16 @@ export function slider(section, left, right, signals) {
 
   slides.forEach((slide, index) => {
     const slideImage = slide.querySelector("img");
-    slideImage.addEventListener("dragstart", (e) => e.preventDefault());
+    slideImage.dragStart((e) => e.preventDefault());
 
-    slide.addEventListener("touchstart", touchStart(index));
-    slide.addEventListener("touchend", touchEnd);
-    slide.addEventListener("touchmove", touchMove);
+    slide.touchStart(handleTouchStart(index));
+    slide.touchEnd(handleTouchEnd);
+    slide.touchMove(handleTouchMove);
 
-    slide.addEventListener("mousedown", touchStart(index));
-    slide.addEventListener("mouseup", touchEnd);
-    slide.addEventListener("mouseleave", touchEnd);
-    slide.addEventListener("mousemove", touchMove);
+    slide.mouseDown(handleTouchStart(index));
+    slide.mouseUp(handleTouchEnd);
+    slide.mouseLeave(handleTouchEnd);
+    slide.mouseMove(handleTouchMove);
   });
 
   if (leftArrow && rightArrow) {
@@ -54,14 +54,14 @@ export function slider(section, left, right, signals) {
     return false;
   };
 
-  function touchStart(index) {
+  function handleTouchStart(index) {
     return function (event) {
       currentIndex = index;
       startPos = getPositionX(event);
       isDragging = true;
 
       animationID = requestAnimationFrame(animation);
-      slider.classList.add("grabbing");
+      slider.classAdd("grabbing");
     };
   }
 
@@ -70,14 +70,14 @@ export function slider(section, left, right, signals) {
     const signalsArray = signals.slice(1, signals.length - 1);
     signalsArray.forEach((signal, index) => {
       if (currentIndex === index) {
-        signal.classList.add("signals__item--active");
+        signal.classAdd("signals__item--active");
       } else {
-        signal.classList.remove("signals__item--active");
+        signal.classRemove("signals__item--active");
       }
     });
   }
 
-  function touchEnd() {
+  function handleTouchEnd() {
     isDragging = false;
     cancelAnimationFrame(animationID);
 
@@ -87,10 +87,10 @@ export function slider(section, left, right, signals) {
     if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
 
     setPositionByIndex();
-    slider.classList.remove("grabbing");
+    slider.classRemove("grabbing");
   }
 
-  function touchMove(event) {
+  function handleTouchMove(event) {
     if (isDragging) {
       const currentPosition = getPositionX(event);
       currentTranslate = prevTranslate + currentPosition - startPos;
@@ -118,4 +118,6 @@ export function slider(section, left, right, signals) {
     setSliderPosition();
     updateSignals();
   }
+
+  updateSignals()
 }
