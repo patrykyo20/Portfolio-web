@@ -1,11 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="title">LOGO</h1>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list--item">
+            <a href="#home" class="header__list--link description">Home</a>
+          </li>
+          <li class="header__list--item">
+            <a href="#experience" class="header__list--link description"
+              >Experience</a
+            >
+          </li>
+          <li class="header__list--item">
+            <a href="#projects" class="header__list--link description"
+              >projects</a
+            >
+          </li>
+          <li class="header__list--item">
+            <a href="#skills" class="header__list--link description">skills</a>
+          </li>
+          <li class="header__list--item">
+            <a href="#about" class="header__list--link description">about</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__container">
+        <a href="#contact" class="header__button button button--link"
+          >Contact</a
+        >
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <div class="menu">
+      <nav class="menu__nav">
+        <ul class="menu__list">
+          <li class="menu__list--item">
+            <a href="#home" class="menu__list--link">Home</a>
+          </li>
+          <li class="menu__list--item">
+            <a href="#experience" class="menu__list--link">Experience</a>
+          </li>
+          <li class="menu__list--item">
+            <a href="#projects" class="menu__list--link">projects</a>
+          </li>
+          <li class="menu__list--item">
+            <a href="#skills" class="menu__list--link">skills</a>
+          </li>
+          <li class="menu__list--item">
+            <a href="#about" class="menu__list--link">about</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="main">
+      <section class="hero container">
+        <h2 class="title hero__title">Patryk Wierzbowski</h2>
+        <p class="description hero__description">
+          Hi, I am Patrick! I’m a software engineer with a passion for building
+          innovative and efficient solutions. With a strong background in
+          programming, I specialize in web and app development, working with
+          various technologies and frameworks. Whether it’s front-end design or
+          back-end functionality, I love tackling challenges and continuously
+          improving my skills. I'm always eager to collaborate on exciting
+          projects and find ways to create impactful software. Let's build
+          something amazing together!
+        </p>
+        <a
+          href="#contact"
+          class="button--link button--primary button hero__button"
+          >Contact</a
+        >
+        <img
+          src="./src/assets/bighead-1.svg"
+          alt="bighead-mainicon"
+          width="102"
+          height="200"
+          class="hero__image"
+        />
+        <img
+          src="./src/assets/ornaments/half-circle.svg"
+          alt="ornament"
+          width="80"
+          height="80"
+          class="hero__ornament--halfcircle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/waves.svg"
+          alt="ornament"
+          width="80"
+          height="80"
+          class="hero__ornament--waves ornament"
+        />
+        <img
+          src="./src/assets/ornaments/triangle.svg"
+          alt="ornament"
+          width="60"
+          height="60"
+          class="hero__ornament--triangle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/empty-triangle.svg"
+          alt="ornament"
+          width="60"
+          height="60"
+          class="hero__ornament--empty-triangle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/special-triangle.svg"
+          alt="ornament"
+          width="60"
+          height="60"
+          class="hero__ornament--special-triangle ornament"
+        />
+      </section>
+      <section class="projects container">
+        <h2 class="title typography--center">Projects</h2>
+        <div class="projects__slider">
+
+        </div>
+        <img
+          src="./src/assets/ornaments/half-circle.svg"
+          alt="half-circle"
+          width="36"
+          height="18"
+          class="projects__ornament--half-circle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/empty-triangle.svg"
+          alt="empty-triangle"
+          width="36"
+          height="18"
+          class="projects__ornament--empty-triangle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/empty-circle.svg"
+          alt="empty-circle"
+          width="36"
+          height="18"
+          class="projects__ornament--empty-circle ornament"
+        />
+        <ul class="projects__container projects__signals">
+          <li>
+            <img
+              src="./src/assets/icons/arrow-left.svg"
+              alt="arrow-left"
+              width="14"
+              height="14"
+              id="left-arrow"
+              class="projects__signals--button"
+            />
+          </li>
+          <li class="projects__signals--item signals__item--active"></li>
+          <li class="projects__signals--item"></li>
+          <li class="projects__signals--item"></li>
+          <li class="projects__signals--item"></li>
+          <li class="projects__signals--item"></li>
+          <li>
+            <img
+              src="./src/assets/icons/arrow-right.svg"
+              alt="arrow-right"
+              width="14"
+              height="14"
+              id="right-arrow"
+              class="projects__signals--button"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="patterns">
+        <div class="patterns__item"></div>
+        <div class="patterns__item"></div>
+        <div class="patterns__item"></div>
+      </section>
+    </main>
+    <script type="module" src="./src/scripts/main.js"></script>
+  </body>
 </html>
