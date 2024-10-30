@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body class="body">
-    <header class="header">
+    <header class="header" id="header">
       <h1 class="title">LOGO</h1>
       <nav class="header__nav">
         <ul class="header__list">
@@ -65,7 +68,7 @@
       </nav>
     </div>
     <main class="main">
-      <section class="hero container">
+      <section class="main__hero hero container">
         <h2 class="title hero__title">Patryk Wierzbowski</h2>
         <p class="description hero__description">
           Hi, I am Patrick! I’m a software engineer with a passion for building
@@ -88,6 +91,7 @@
           width="102"
           height="200"
           class="hero__image"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/half-circle.svg"
@@ -95,6 +99,7 @@
           width="80"
           height="80"
           class="hero__ornament--halfcircle ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/waves.svg"
@@ -102,6 +107,7 @@
           width="80"
           height="80"
           class="hero__ornament--waves ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/triangle.svg"
@@ -109,6 +115,7 @@
           width="60"
           height="60"
           class="hero__ornament--triangle ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/empty-triangle.svg"
@@ -116,6 +123,7 @@
           width="60"
           height="60"
           class="hero__ornament--empty-triangle ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/special-triangle.svg"
@@ -123,19 +131,19 @@
           width="60"
           height="60"
           class="hero__ornament--special-triangle ornament"
+          loading="lazy"
         />
       </section>
-      <section class="projects container">
+      <section class="projects container" id="projects">
         <h2 class="title typography--center">Projects</h2>
-        <div class="projects__slider">
-
-        </div>
+        <div class="projects__slider"></div>
         <img
           src="./src/assets/ornaments/half-circle.svg"
           alt="half-circle"
           width="36"
           height="18"
           class="projects__ornament--half-circle ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/empty-triangle.svg"
@@ -143,6 +151,7 @@
           width="36"
           height="18"
           class="projects__ornament--empty-triangle ornament"
+          loading="lazy"
         />
         <img
           src="./src/assets/ornaments/empty-circle.svg"
@@ -150,40 +159,264 @@
           width="36"
           height="18"
           class="projects__ornament--empty-circle ornament"
+          loading="lazy"
         />
-        <ul class="projects__container projects__signals">
-          <li>
-            <img
-              src="./src/assets/icons/arrow-left.svg"
-              alt="arrow-left"
-              width="14"
-              height="14"
-              id="left-arrow"
-              class="projects__signals--button"
-            />
-          </li>
-          <li class="projects__signals--item signals__item--active"></li>
-          <li class="projects__signals--item"></li>
-          <li class="projects__signals--item"></li>
-          <li class="projects__signals--item"></li>
-          <li class="projects__signals--item"></li>
-          <li>
-            <img
-              src="./src/assets/icons/arrow-right.svg"
-              alt="arrow-right"
-              width="14"
-              height="14"
-              id="right-arrow"
-              class="projects__signals--button"
-            />
-          </li>
-        </ul>
+        <ul
+          class="projects__container projects__signals projects__signals--spacing"
+        ></ul>
       </section>
+      <section class="experience container" id="experience">
+        <h2 class="title typography--center">Experience</h2>
+        <div class="experience__container"></div>
+        <div class="experience__stepper experience__stepper--spacing"></div>
+        <img
+          src="./src/assets/ornaments/three-arrows.svg"
+          alt="half-circle"
+          width="48"
+          height="83"
+          class="experierience__ornament--three-arrows ornament"
+        />
+        <img
+          src="./src/assets/ornaments/empty-circle.svg"
+          alt="half-circle"
+          width="48"
+          height="83"
+          class="experierience__ornament--empty-circle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/half-empty-circle.svg"
+          alt="half-circle"
+          width="48"
+          height="83"
+          class="experierience__ornament--half-empty-circle ornament"
+        />
+      </section>
+      <section class="skills container" id="skills">
+        <h2 class="title typography--center skills__title">Skills</h2>
+        <article class="skills__article"></article>
+
+        <div class="skills__buttons skills__container">
+          <button class="button--technology button--active" id="open-modal">
+            Frontend
+          </button>
+          <button class="button--technology">Backend</button>
+          <button class="button--technology">Design</button>
+        </div>
+        <img
+          src="./src/assets/ornaments/star-triangle.svg"
+          alt="star-triangle"
+          width="70"
+          height="70"
+          class="skills__ornament--star-triangle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/dots.svg"
+          alt="dots"
+          width="60"
+          height="260"
+          class="skills__ornament--dots ornament"
+        />
+      </section>
+      <section class="about container">
+        <h2 class="title typography--center about__title">About</h2>
+        <article class="about__me">
+          <h3 class="title--section skills__container skills__subtitle">
+            Who I am?
+          </h3>
+          <p class="description skills__description">
+            Hi, I am Patrick! I’m a software engineer with a passion for
+            building innovative and efficient solutions. With a strong
+            background in programming, I specialize in web and app development,
+            working with various technologies and frameworks. Whether it’s
+            front-end design or back-end functionality, I love tackling
+            challenges and continuously improving my skills. I'm always eager to
+            collaborate on exciting projects and find ways to create impactful
+            software. Let's build something amazing together!
+          </p>
+        </article>
+        <img
+          src="./src/assets/bighead-3.svg"
+          alt="bighead-3"
+          width="191"
+          height="302"
+          class="about__image"
+        />
+        <article class="about__plans">
+          <h3 class="title--section skills__container skills__subtitle">
+            Plans for the future?
+          </h3>
+          <p class="description skills__description">
+            Hi, I am Patrick! I’m a software engineer with a passion for
+            building innovative and efficient solutions. With a strong
+            background in programming, I specialize in web and app development,
+            working with various technologies and frameworks.
+          </p>
+        </article>
+        <img
+          src="./src/assets/ornaments/line-circle.svg"
+          alt="line-circle"
+          width="96"
+          height="96"
+          class="about__ornament--line-circle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/waves.svg"
+          alt="dots"
+          width="161"
+          height="63"
+          class="about__ornament--waves ornament"
+        />
+      </section>
+      <footer class="footer container">
+        <h2 class="title typography--center footer__logo">Logo</h2>
+        <h3 class="title footer__subtitle footer__links">Links</h3>
+        <nav class="nav footer__nav">
+          <ul class="nav__list footer--spacing">
+            <li class="nav__list--item">
+              <a
+                href="https://github.com/patrykyo20"
+                class="title--section nav__list--link nav__list--spacing"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/patrykyo20"
+                class="title--section nav__list--link"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/patrykyo20"
+                class="title--section nav__list--link"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contact">
+          <h3 class="title footer__subtitle">Contact</h3>
+          <p class="description footer--spacing">
+            Email: wierzbowski.work@gmail.com
+          </p>
+          <p class="description">Phone: 660 898 688</p>
+        </div>
+        <form class="form footer__form">
+          <label for="fullName" class="form__label form__field">
+            Full Name
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="your name..."
+              class="form__input"
+              minlength="4"
+              required
+            />
+          </label>
+          <label for="email" class="form__label form__field">
+            Email
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your email..."
+              class="form__input"
+              required
+            />
+          </label>
+          <label for="message" class="form__label form__field">
+            Message
+            <textarea
+              id="message"
+              type="message"
+              name="message"
+              placeholder="message..."
+              class="form__input from__textarea"
+              required
+            ></textarea>
+          </label>
+          <label for="checkbox" class="form__label form__checkbox" data-after="hello world">
+            <input id="checkbox" type="checkbox" name="fullName" class="form__checkbox--input" />
+            Confirm that you’re not robot
+          </label>
+          <button class="form__label form__button" type="submit">Submit</button>
+        </form>
+        <p
+          class="description typography--center footer--spacing footer__copyright"
+        >
+          © Copywright Patryk Wierzbowski
+        </p>
+        <img
+          src="./src/assets/ornaments/empty-line-circle.svg"
+          alt="empty-line-circle"
+          width="170"
+          height="170"
+          class="footer__ornament--empty-line-circle ornament"
+        />
+        <img
+          src="./src/assets/ornaments/pentagon.svg"
+          alt="pentagon"
+          width="150"
+          height="150"
+          class="footer__ornament--pentagon ornament"
+        />
+      </footer>
       <section class="patterns">
         <div class="patterns__item"></div>
         <div class="patterns__item"></div>
         <div class="patterns__item"></div>
       </section>
+      <div class="modal__container">
+        <div class="modal__background">
+          <div class="modal__content" id="technologies">
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+            <img
+              src="./src/assets/technologies/react.svg"
+              alt="react"
+              width="100"
+              height="100"
+            />
+          </div>
+          <div class="modal__content modal__buttons">
+            <button class="button--primary button--technology" id="open-modal">
+              Frontend
+            </button>
+            <button class="button--technology">Backend</button>
+            <button class="button--technology">Design</button>
+          </div>
+        </div>
+      </div>
     </main>
     <script type="module" src="./src/scripts/main.js"></script>
   </body>
