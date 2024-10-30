@@ -10,8 +10,8 @@
     var(--color-light) 0%,
     var(--color-primary) 100%
   );
-  opacity: 0.2;
-  filter: blur(200px);
+  opacity: 0.1;
+  filter: blur(400px);
   border-radius: 300px;
   z-index: -10;
 }
