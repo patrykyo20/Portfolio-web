@@ -77,3 +77,19 @@ HTMLElement.prototype.mouseMove = function (callback) {
     console.warn("Callback isn't function");
   }
 };
+
+HTMLElement.prototype.onSubmit = function (callback) {
+  if (typeof callback == "function") {
+    this.addEventListener("submit", callback);
+  } else {
+    console.warn("Callback isn't function");
+  }
+};
+
+Window.prototype.onScroll = function (callback) {
+  if (typeof callback === "function") {
+    this.addEventListener("scroll", callback);
+  } else {
+    console.warn("Callback isn't a function");
+  }
+};

@@ -19,7 +19,7 @@ export function getElements(selector, context = document) {
 }
 
 export function createElement(tagName) {
-  if (typeof tagName === 'string' && tagName.trim() !== '') {
+  if (typeof tagName == 'string' && tagName.trim() != '') {
     return document.createElement(tagName);
   } else {
     console.warn(`Error: Invalid tag name '${tagName}' provided.`);
