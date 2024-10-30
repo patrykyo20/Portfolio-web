@@ -6,7 +6,7 @@ async function Project() {
   const projectSlider = getElement(".projects__slider");
   const projectSignals = getElement(".projects__signals");
 
-  const projectData = await fetchData("./src/scripts/data/projectData.json ");
+  const projectData = await fetchData("./src/scripts/data/projectData.json");
 
   const projectTemplate = projectData.map(
     (project) => `
@@ -62,15 +62,13 @@ async function Project() {
         class="projects__signals--button"
       />
     </li>
-    ${projectData.map(
-      (index) => {
-        if (index == 0) {
-          return `<li class="projects__signals--item signals__item--active"></li>`
-        } else {
-          return `<li class="projects__signals--item"></li>`
-        }
+    ${projectData.map((index) => {
+      if (index == 0) {
+        return `<li class="projects__signals--item signals__item--active"></li>`;
+      } else {
+        return `<li class="projects__signals--item"></li>`;
       }
-    )}
+    })}
     <li>
       <img
         src="./src/assets/icons/arrow-right.svg"
