@@ -21,6 +21,32 @@
   text-decoration: none;
 }
 
+.button--technology {
+  border: none;
+  color: var(--color-light);
+  padding: 15px 30px;
+  font-size: 32px;
+  background-color: var(--color-gray);
+  transition: 0.3s;
+}
+
+.button--technology:hover {
+  box-shadow: 0.6px 0.6px 2px var(--color-gray);
+}
+
+.button--active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.button--active:hover {
+  box-shadow: 0.6px 0.6px 4px var(--color-primary);
+}
+
+.button--technology:hover {
+  cursor: pointer;
+}
+
 .button:hover {
   cursor: pointer;
   box-shadow: 1px 1px 4px var(--color-light);
@@ -35,5 +61,11 @@
 @media (min-width: 768px) {
   .button {
     padding: 15px 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .button--technology {
+    padding: 15px 30px;
   }
 }
