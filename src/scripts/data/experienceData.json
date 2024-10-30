@@ -1,0 +1,39 @@
+[
+  {
+    "company": {
+      "name": "Kodland",
+      "position": "Tutor",
+      "headline": "Work in kodland as tutor study people create 3D models and python language"
+    },
+    "date": "may 2024 - may 2025",
+    "description": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/bighead-2.svg"
+  },
+  {
+    "company": {
+      "name": "Dan Corp",
+      "position": "Full Stack"
+    },
+    "date": "may 2024 - may 2025",
+    "description": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/bighead-2.svg"
+  },
+  {
+    "company": {
+      "name": "Mate academy",
+      "position": "Full Stack"
+    },
+    "date": "may 2024 - may 2025",
+    "description": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/bighead-2.svg"
+  },
+  {
+    "company": {
+      "name": "Sii Poland",
+      "position": "Software Engineer"
+    },
+    "date": "july 2024 - now",
+    "description": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/bighead-2.svg"
+  }
+]
