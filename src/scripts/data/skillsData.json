@@ -1,0 +1,366 @@
+[
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/react.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "JS",
+    "experience": "JavaScript",
+    "image": "./src/assets/technologies/javascript.svg",
+    "technology": "frontend"
+  },
+  {
+    "name": "CSS",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/css.svg"
+  },
+  {
+    "name": "React",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "Node.js",
+    "experience": "Hi, I am Patrick! I’m a software engineer with a passion for building innovative and efficient solutions. With a strong background in programming, I specialize in web and app development, working with various technologies and frameworks. Whether it’s front-end design or back-end functionality, I love tackling challenges and continuously improving my skills. I'm always eager to collaborate on exciting projects and find ways to create impactful software. Let's build something amazing together!",
+    "image": "./src/assets/technologies/nodejs.svg",
+    "technology": "backend"
+  }
+]
