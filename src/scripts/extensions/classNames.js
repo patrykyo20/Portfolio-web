@@ -13,3 +13,20 @@ HTMLElement.prototype.classRemove = function (className) {
     console.warn("Unvalid parametr");
   }
 };
+
+HTMLElement.prototype.classToggle = function (className) {
+  if (typeof className == "string" && className) {
+    this.classList.toggle(className);
+  } else {
+    console.warn("Unvalid parametr");
+  }
+};
+
+HTMLElement.prototype.classIncludes = function (className) {
+  if (typeof className == "string" && className) {
+    Array.from(this.classList).includes(className);
+  } else {
+    console.warn("Unvalid parametr");
+  }
+};
+
