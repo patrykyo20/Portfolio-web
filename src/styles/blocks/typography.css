@@ -14,7 +14,7 @@
 
 .description {
   font-size: var(--description-mobile);
-  line-height: calc(var(--description-mobile) + 12px);
+  line-height: calc(var(--description-mobile) + 6px);
   color: var(--color-gray);
 }
 
